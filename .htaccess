@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^([^/]*)/redirect/([^/]*)$ /redirect.php?lang=$1&hash=$2 [L]
+RewriteRule ^([^/]*)/$ /index.php?lang=$1 [L]
+RewriteRule ^([^/]*)/([^/]*)$ /category.php?lang=$1&category=$2 [L]
+
