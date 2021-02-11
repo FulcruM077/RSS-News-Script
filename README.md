@@ -15,3 +15,9 @@ INSERT INTO `cats` (`id`, `title`, `text`, `slug`, `lang`) VALUES (ID, 'Category
 open app/config.php and edit the line below
 
 define('DEFAULT_LANG', 'en'); 
+
+# Setting up the available languages
+
+open app/fulccrum.php and edit the line below
+
+$langList = Array('tr', 'en');
